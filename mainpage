@@ -1,11 +1,13 @@
 <!doctype html>
 <html>
 <head>
+<style> .nav-button { padding: 12px 20px; background: #333; color: white; border-radius: 6px; text-decoration: none; } </style>
   <meta charset="utf-8" />
   <title>Zero Rotation — Characters</title>
   assets/style.css
 </head>
 <body>
+<button onclick="location.href='character-sheet.html'">Character Sheet</button>
   <h1>Zero Rotation — Character Select</h1>
 
   <div class="grid">
