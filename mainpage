@@ -1,22 +1,43 @@
 <!doctype html>
 <html>
 <head>
-<style> .nav-button { padding: 12px 20px; background: #333; color: white; border-radius: 6px; text-decoration: none; } </style>
   <meta charset="utf-8" />
   <title>Zero Rotation — Characters</title>
-  assets/style.css
+
+  <!-- Load your external CSS -->
+  <link rel="stylesheet" href="assets/style.css">
+
+  <!-- Optional: quick button styling -->
+  <style>
+    .nav-button {
+      padding: 12px 20px;
+      background: #333;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    .grid a {
+      display: block;
+      margin: 8px 0;
+      font-size: 18px;
+    }
+  </style>
 </head>
+
 <body>
-<button onclick="location.href='character-sheet.html'">Character Sheet</button>
+
+  <button onclick="location.href='character-sheet.html'">Character Sheet</button>
+
   <h1>Zero Rotation — Character Select</h1>
 
   <div class="grid">
-    sheets/thomas.htmlThomas</a>
-    sheets/melric (Nate).html</a>
-    sheets/player3.htmlPlayer 3</a>
-    sheets/player4.htmlPlayer 4</a>
-    sheets/player5.htmlPlayer 5</a>
-    sheets/player6.htmlPlayer 6</a>
+    <a href="sheets/thomas.html">Thomas</a>
+    <a href="sheets/melric (Nate).html">Melric (Nate)</a>
+    <a href="sheets/player3.html">Player 3</a>
+    <a href="sheets/player4.html">Player 4</a>
+    <a href="sheets/player5.html">Player 5</a>
+    <a href="sheets/player6.html">Player 6</a>
   </div>
+
 </body>
 </html>
